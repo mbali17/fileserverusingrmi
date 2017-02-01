@@ -1,4 +1,5 @@
-import java.io.File;
+import com.fileserver.interfaces.impl.FileServerImpl;
+
 import java.rmi.AlreadyBoundException;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;

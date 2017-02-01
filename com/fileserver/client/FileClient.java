@@ -1,3 +1,6 @@
+package com.fileserver.client;
+
+import com.fileserver.constants.ProjectConstants;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -41,7 +44,7 @@ public class FileClient {
 			ioe.printStackTrace();
 		}
 		catch (Exception e) {
-			System.err.println("FileServer exception: " + e.getMessage());
+			System.err.println("com.fileserver.interfaces.server.FileServer exception: " + e.getMessage());
 			e.printStackTrace();
 		}
 	}

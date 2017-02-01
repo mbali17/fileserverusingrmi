@@ -1,3 +1,7 @@
+package com.fileserver.interfaces.impl;
+
+import com.fileserver.interfaces.FileInfo;
+
 /* File operations */
 /* by Jia Rao */
 public class FileOp implements FileInfo {

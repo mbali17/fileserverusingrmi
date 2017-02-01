@@ -1,5 +1,8 @@
+package com.fileserver.interfaces.server;
 /* File server interface */
-/* by Jia Rao */
+
+import com.fileserver.interfaces.FileInfo;
+
 import java.rmi.*;
 
 /**

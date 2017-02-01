@@ -1,3 +1,7 @@
+package com.fileserver.utility;
+
+import com.fileserver.client.ClientHelper;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;

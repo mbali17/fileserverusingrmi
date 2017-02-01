@@ -1,4 +1,4 @@
-/* The serializable file object */
+package com.fileserver.interfaces;/* The serializable file object */
 /* by Jia Rao */
 import java.io.Serializable;
 public interface FileInfo extends Serializable {

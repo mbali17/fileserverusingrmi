@@ -1,3 +1,5 @@
+package com.fileserver.constants;
+
 /**
  * This class is used to define the constants used across the project.
  */

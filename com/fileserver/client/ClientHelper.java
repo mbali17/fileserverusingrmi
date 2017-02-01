@@ -1,3 +1,11 @@
+package com.fileserver.client;
+
+import com.fileserver.constants.ProjectConstants;
+import com.fileserver.interfaces.FileInfo;
+import com.fileserver.interfaces.impl.FileOp;
+import com.fileserver.interfaces.server.FileServer;
+import com.fileserver.utility.WatchServiceHandlerThread;
+
 import java.io.*;
 import java.net.MalformedURLException;
 import java.nio.file.Path;
@@ -19,7 +27,7 @@ public class ClientHelper {
 
     static FileServer fileServer= null;
 
-    static String folderToSync = null;
+    public static String folderToSync = null;
     /**
      *Displays menu to interact and returns the choice selected by the user.
      * @return {@code int choiceSelectedByTheUser}
