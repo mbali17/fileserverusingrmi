@@ -15,9 +15,11 @@ for example classes and use the following command javac -d <path to the class fo
    Step 1: After the classes are compiled. Start the rmi registry using one of the following commands based on the
    operating system. Windows:start rmiregistry and linux based: rmiregistry &, This will start the registry at the
    default port.
+   
    Step 2: Start the fileserver using the following command java startserver (make sure you are in classes folder or
    the folder containing the compiled class files.). This will ask for the server ip and the object name to bind in
    the rmi registry enter appropriate values and the server is ready
+   
    Step 3: Enter the path of the folder on the server to persist files.
 
  At the Client end.
