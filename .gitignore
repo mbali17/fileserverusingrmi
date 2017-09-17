@@ -3,5 +3,5 @@
 .idea/*
 .metadata
 RemoteSystemsTempFiles/
-
-.class
+#ignore all class files.
+*.class
