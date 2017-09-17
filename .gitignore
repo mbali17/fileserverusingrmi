@@ -5,3 +5,5 @@
 RemoteSystemsTempFiles/
 #ignore all class files.
 *.class
+#Compiled classes by eclipse ide
+*/out/*
