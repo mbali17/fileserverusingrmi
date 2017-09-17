@@ -1,3 +1,5 @@
+package com.fileserver;
+
 import com.fileserver.interfaces.impl.FileServerImpl;
 
 import java.rmi.AlreadyBoundException;
@@ -28,19 +30,13 @@ public class StartServer {
             System.out.println("Server started successfully....");
             FileServerImpl.initialiazeFolderPathOnTheServer();
         }
-        catch (AlreadyBoundException abe)
-        {
+        catch (AlreadyBoundException abe) {
             System.out.println("Malformed URL: " + abe.getMessage());
             abe.printStackTrace();
         }
-
-        catch (RemoteException re)
-        {
+        catch (RemoteException re){
             System.out.println("Remote exception: " + re.getMessage());
             re.printStackTrace();
-
         }
-
     }
-
 }

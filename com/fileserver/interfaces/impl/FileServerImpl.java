@@ -1,7 +1,5 @@
-package com.fileserver.interfaces.impl;/* Implementation of server methods */
-/* by Jia Rao */
+package com.fileserver.interfaces.impl;
 import com.fileserver.interfaces.FileInfo;
-import com.fileserver.interfaces.impl.FileOp;
 import com.fileserver.interfaces.server.FileServer;
 
 import java.nio.file.InvalidPathException;

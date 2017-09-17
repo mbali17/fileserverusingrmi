@@ -1,5 +1,6 @@
-package com.fileserver.client;
+package com.fileserver;
 
+import com.fileserver.client.ClientHelper;
 import com.fileserver.constants.ProjectConstants;
 
 import java.io.IOException;
